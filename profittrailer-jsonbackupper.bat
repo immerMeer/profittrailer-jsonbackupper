@@ -9,14 +9,14 @@ set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%"
 
 set "source_drive=C:"
 set "backup_drive=Z:"
-set "backup_dir=profittrailer\jsonbackups\bittrex"
+set "backup_dir=profittrailer\jsonbackups"
 
 set "bittrex_name=PTBTCBittrex"
 set "bittrex_path=%source_drive%\%bittrex_name%"
-set "bittrex_backup=%backup_drive%\%backup_dir%\db56b678b5bb44fb9da026941e8de667"
+set "bittrex_backup=%backup_drive%\%backup_dir%\bittrex\db56b678b5bb44fb9da026941e8de667"
 copy "%bittrex_path%\ProfitTrailerData.json" "%bittrex_backup%\ProfitTrailerData-%bittrex_name%-%fullstamp%.json"
 
 set "binance_name=PTBTCBinance"
 set "binance_path=%source_drive%\%binance_name%"
-set "binance_backup=%backup_drive%\profittrailer\jsonbackups\binance\JxtXkU3dxelAkgVxCXqDWTYQqfOdKQLzZ8o0GzkkdduU6ktFvPaP8B2hugn9VjBA"
+set "binance_backup=%backup_drive%\%backup_dir%\binance\JxtXkU3dxelAkgVxCXqDWTYQqfOdKQLzZ8o0GzkkdduU6ktFvPaP8B2hugn9VjBA"
 copy "%binance_path%\ProfitTrailerData.json" "%binance_backup%\ProfitTrailerData-%binance_name%-%fullstamp%.json"
