@@ -10,6 +10,7 @@ Deleting the corrupted files will get your bot running again, but you'll soon no
 profittrailer-jsonbackupper is a Windows BAT file that once configured and ran will copy the current ProfitTrailerData.json file to a secure backup location of your choice.
 It will append the current timestamp to the backup's filename for quick retrieval. In case of mayhem, simply replace the corrupted ProfitTrailerData.json in your PT folder with the latest working backup from your backup folder.
 
+Setting up: edit profittrailer-jsonbackupper.bat and fill out **backup_path**, **backup_history** and the source path(s) to your instance(s) (e.g. **bittrex_path**)
 
 The BAT file can be run manually or from terminal, but for super-duper safety should be run as a recurring scheduled task from Windows TaskScheduler, as such:
 
