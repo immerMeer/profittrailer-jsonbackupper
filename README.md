@@ -1,6 +1,7 @@
 # profittrailer-jsonbackupper
 Auto backup your ProfitTrailerData.json files in Windows using TaskScheduler and profittrailer-jsonbackupper
 
+**NB: this repository has become obsolete by improvements to the core PT application, which now integrally supports chronological state backups from versions 1.2.6.14 upwards, be sure to acquire and upgrade to the latest available stable release: [profit-trailer@github](https://github.com/taniman/profit-trailer/releases)**
 
 If you're running one or more [ProfitTrailer](https://www.profittrailer.com) instances on your desktop, unnatural termination of your bots is a thing likely to happen at some point.
 Causes for this could be nuclear warfare, misplaced glasses of liquid, random kitteh or, in my case, random power outage due to wack fuses.
